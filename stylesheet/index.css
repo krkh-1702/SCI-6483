@@ -1,0 +1,106 @@
+*{
+    font-family: 'Oswald', sans-serif;
+}
+
+body, html {
+    background-color: #ffffff;
+  
+    /* removes horizontal scrollbar */
+    overflow-x: hidden;
+overflow-y: visible;
+
+  }
+  
+.for-padding{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+  
+  .navbar-brand{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-top: 25px;
+  }
+  
+  .nav-item{
+    font-size: 15px;
+  }
+  
+  .navbar-collapse{
+    padding-right: 30px;
+  }
+
+  .col-lg-6{
+      position: relative;
+  }
+
+  .col-lg-6:before{
+      content: '';
+    position: absolute;
+    z-index: -1;
+}
+
+  .small-text{
+      margin: 0px;
+      font-weight: 50px;
+      font-size: 18px;
+      font-style: lighter;
+      color: rgb(107, 107, 107);
+  }
+
+  .large-text{
+      font-style:bold;
+      margin-top: 10 px;
+      margin-bottom: 10 px;
+      font-size: 40px;
+      font-weight: 300px;
+  }
+
+  .square-img{
+    height: 500px;
+    width: 400px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 15px;
+    color: transparent;
+    margin-left: 700px;
+    margin-top: -455px;
+  }
+
+.main-img{
+    width: 40%;
+    border-radius: 15px;
+    margin-left: 200px;
+}
+
+.square-line{
+    height: 10px;
+    width: 900px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 2px;
+    color: transparent;
+    margin-top: -300px;
+  }
+
+  .link-list li {
+    display: inline;
+    width: 500px;
+    padding: 15px 20px;
+    text-align: center;
+    background-color: rgb(230, 215, 222);
+    border-radius: 10px;
+    margin-top:-50px;
+  }
+
+  .click{
+   text-decoration: none;
+   font-size: 18px;
+   color: rgb(110, 51, 79);
+  }
+
+ a:hover{
+    opacity: 0.5;
+    transition: 0.4s;
+  }
+
+
