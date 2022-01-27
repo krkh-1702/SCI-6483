@@ -17,7 +17,7 @@ overflow-y: visible;
 }
   
   .navbar-brand{
-    font-size: 20px;
+    font-size: 16px;
     font-style: italic;
     font-weight: lighter;
     margin-top: 25px;
@@ -36,35 +36,35 @@ overflow-y: visible;
   }
 
   .col-lg-6:before{
-      content: '';
+    content: '';
     position: absolute;
     z-index: -1;
 }
 
   .small-text{
       margin: 0px;
-      font-weight: 50px;
-      font-size: 18px;
-      font-style: lighter;
-      color: rgb(107, 107, 107);
+      font-size: 20px;
+      font-weight: lighter;
+      color: rgb(41, 41, 41);
   }
 
   .large-text{
       font-style:bold;
-      margin-top: 10 px;
-      margin-bottom: 10 px;
+      margin-top: 20 px;
+      margin-bottom: 20 px;
       font-size: 40px;
       font-weight: 300px;
+      color: #fb6985;
   }
 
   .square-img{
-    height: 500px;
+    height: 380px;
     width: 400px;
     background-color: rgb(231, 231, 231);
     border-radius: 15px;
     color: transparent;
-    margin-left: 700px;
-    margin-top: -455px;
+    margin-left: 50px;
+    margin-top: -255px;
   }
 
 .main-img{
@@ -82,20 +82,18 @@ overflow-y: visible;
     margin-top: -300px;
   }
 
-  .link-list li {
-    display: inline;
-    width: 500px;
-    padding: 15px 20px;
-    text-align: center;
-    background-color: rgb(230, 215, 222);
-    border-radius: 10px;
-    margin-top:-50px;
-  }
+.main-list{
+  margin: 0px;
+  padding: 0px;
+  left: inherit;
+}
+
 
   .click{
    text-decoration: none;
    font-size: 18px;
    color: rgb(110, 51, 79);
+
   }
 
  a:hover{
@@ -103,4 +101,59 @@ overflow-y: visible;
     transition: 0.4s;
   }
 
+  .hover_style {
+    opacity: 0.5;
+    transition: 0.4s;
+  }
+  
+  .title_01{
+      font-size: 20px;
+      font-weight:bold;
+      color:rgb(0, 0, 0);
+      margin-top: 20px;
+      text-decoration: none;
+  }
+  
+  .title_02{
+    font-size: 14px;
+    font-weight:normal;
+    color: rgb(36, 36, 36);
+    text-decoration: none;
+  }
+  
+  
+  #video-container{
+  display: flex;
+  }
+
+  #container{
+    padding: 20px 10px 10px 20px;
+  }
+  
+  @media screen and (max-width: 799px) {
+    .col-lg-4 video {
+      width: 150%;
+      height: 150%;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .col-lg-4 video {
+      width: 110%;
+      height: 110%;
+    }
+  }
+
+  .body_text_1 {
+    font-size: 12px;
+    color: rgb(32, 32, 32);
+   font-weight: 300;
+  }
+  
+  .body_text_2 {
+    font-size: 10px;
+    color: rgb(105, 105, 105);
+  }
+  
+  
 
