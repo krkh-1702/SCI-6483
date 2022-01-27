@@ -13,6 +13,15 @@ $(window).scroll(function () {
     }
 });
 
+// Hover effecta
+$('.hover_image').hover(function () {
+    $(this).addClass('hover_style');
+},
+    function () {
+        $(this).removeClass('hover_style');
+    });
+
+
 // Video aspect ratio maintainer
 var j = 0;
 const video_width = $(".comp_video").width()
@@ -31,13 +40,4 @@ $(document).ready(function () {
         }
     });
 });
-
-$('.hover_image').hover(function () {
-    $(this).addClass('hover_style');
-    $('.hover_title').addClass('hover_style');
-},
-    function () {
-        $(this).removeClass('hover_style');
-        $('.hover_title').removeClass('hover_style');
-    });
 
