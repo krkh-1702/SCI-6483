@@ -13,8 +13,8 @@ overflow-y: visible;
   }
   
 .for-padding{
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
   
   .navbar-brand{
@@ -216,40 +216,82 @@ overflow-y: visible;
 
   @media screen and (max-width: 620px){
     .square-img{
-      height: 150px;
-      width: 200px;
+      height: 220px;
+      width: 160px;
       background-color: rgb(231, 231, 231);
       border-radius: 15px;
       color: transparent;
-      margin-left: 140px;
+      margin-left: 120px;
       margin-top: -220px;
       margin-bottom: 20px;
     }
     .main-img{
-      width: 40%;
+      width: 50%;
       border-radius: 15px;
       margin-left: 120px;
+      margin-bottom: 60px;
   }
-  .col-lg-6 {
-    text-align: center;
-  }  
-  .hover_image{
-    width: 60%;
-  }
-  .small-text{
-    font-size: 15px;
-    font-weight: 50px;
-    color: rgb(150, 150, 150);
-    text-align: center;
-}
-.large-text{
-    font-size: 30px;
-    font-weight: 300px;
-    color: #fb6985;
 }
 
-}
+@media screen and (max-width: 500px){
+  .square-img{
+    height: 220px;
+    width: 160px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 15px;
+    color: transparent;
+    margin-left: 80px;
+    margin-top: -200px;
+    margin-bottom: 20px;
   }
+  .main-img{
+    width: 60%;
+    border-radius: 15px;
+    margin-left: 120px;
+    margin-bottom: 60px;
+}
+}
+
+@media screen and (max-width: 400px){
+  .square-img{
+    height: 220px;
+    width: 160px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 15px;
+    color: transparent;
+    margin-left: 10px;
+    margin-top: -220px;
+    margin-bottom: 20px;
+  }
+  .main-img{
+    width: 70%;
+    border-radius: 15px;
+    margin-left: 60px;
+    margin-bottom: 40px;
+}
+}
+
+@media screen and (max-width: 350px){
+  .square-img{
+    height: 200px;
+    width: 160px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 15px;
+    color: transparent;
+    margin-left: 10px;
+    margin-top: -220px;
+    margin-bottom: 20px;
+  }
+  .main-img{
+    width: 80%;
+    border-radius: 15px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+}
+
+
+
 
   
   
