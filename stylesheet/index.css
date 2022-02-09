@@ -61,6 +61,19 @@ overflow-y: visible;
     opacity: 0.5;
     transition: 0.4s;
   }
+
+  .click_link{
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 50px;
+    color: rgb(102, 102, 102);
+    text-decoration: underline!important;
+  }
+
+  .click_link:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: underline!important;
+  }
   
   .title_01{
       font-size: 20px;
