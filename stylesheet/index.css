@@ -5,11 +5,10 @@
 
 body, html {
     background-color: #ffffff;
-  
+
     /* removes horizontal scrollbar */
     overflow-x: hidden;
-overflow-y: visible;
-
+    overflow-y: visible;
   }
   
 .for-padding{
@@ -100,19 +99,19 @@ overflow-y: visible;
   }
 
   .square-img{
-    height: 380px;
-    width: 400px;
+    height: 280px;
+    width: 200px;
     background-color: rgb(231, 231, 231);
     border-radius: 15px;
     color: transparent;
-    margin-left: 50px;
+    margin-left: 80px;
     margin-top: -255px;
   }
 
   .main-img{
-    width: 40%;
+    width: 30%;
     border-radius: 15px;
-    margin-left: 200px;
+    margin-left: 120px;
 }
 
 
@@ -121,7 +120,7 @@ overflow-y: visible;
   }
 
   #container{
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px !important;
     text-align: center!important;
   }
   
@@ -130,6 +129,10 @@ overflow-y: visible;
       width: 150%;
       height: 150%;
     }
+  }
+
+  .comp_video{
+    padding: 20px 10px 20px 10px;
   }
   
   @media screen and (min-width: 1200px) {
@@ -154,33 +157,32 @@ overflow-y: visible;
 
   @media screen and (max-width: 1220px){
     .square-img{
-      height: 280px;
-      width: 300px;
-      background-color: rgb(231, 231, 231);
-      border-radius: 15px;
-      color: transparent;
-      margin-left: 50px;
-      margin-top: -175px;
-    }
-
-    
-  }
-
-  @media screen and (max-width: 990px){
-    .square-img{
-      height: 300px;
+      height: 220px;
       width: 200px;
       background-color: rgb(231, 231, 231);
       border-radius: 15px;
       color: transparent;
-      margin-left: 180px;
-      margin-top: -250px;
+      margin-left: 50px;
+      margin-top: -135px;
+    }
+  }
+
+  @media screen and (max-width: 992px){
+    .square-img{
+      height: 240px;
+      width: 160px;
+      background-color: rgb(231, 231, 231);
+      border-radius: 15px;
+      color: transparent;
+      margin-left: 300px;
+      margin-top: -220px;
       margin-bottom: 20px;
     }
     .main-img{
-      width: 40%;
+      width: 25%;
       border-radius: 15px;
-      margin-left: 160px;
+      margin-left: 150px;
+      padding-bottom: 20px;
   }
   .col-lg-6 {
     text-align: center;
@@ -201,9 +203,10 @@ overflow-y: visible;
       margin-bottom: 20px;
     }
     .main-img{
-      width: 40%;
+      width: 30%;
       border-radius: 15px;
       margin-left: 120px;
+      padding-bottom: 20px;
   }
   .col-lg-6 {
     text-align: center;
@@ -234,69 +237,70 @@ overflow-y: visible;
       background-color: rgb(231, 231, 231);
       border-radius: 15px;
       color: transparent;
-      margin-left: 120px;
-      margin-top: -220px;
+      margin-left: 130px;
+      margin-top: -250px;
       margin-bottom: 20px;
     }
     .main-img{
-      width: 50%;
+      width: 35%;
       border-radius: 15px;
-      margin-left: 120px;
+      margin-left: 100px;
       margin-bottom: 60px;
   }
 }
 
 @media screen and (max-width: 500px){
   .square-img{
-    height: 220px;
-    width: 160px;
+    height: 190px;
+    width: 140px;
     background-color: rgb(231, 231, 231);
     border-radius: 15px;
     color: transparent;
-    margin-left: 80px;
-    margin-top: -200px;
+    margin-left: 100px;
+    margin-top: -220px;
     margin-bottom: 20px;
   }
   .main-img{
-    width: 60%;
+    width: 40%;
     border-radius: 15px;
-    margin-left: 120px;
+    margin-left: 80px;
     margin-bottom: 60px;
 }
 }
 
 @media screen and (max-width: 400px){
   .square-img{
-    height: 220px;
-    width: 160px;
+    height: 180px;
+    width: 100px;
     background-color: rgb(231, 231, 231);
     border-radius: 15px;
     color: transparent;
-    margin-left: 10px;
+    margin-left: 50px;
     margin-top: -220px;
     margin-bottom: 20px;
   }
   .main-img{
-    width: 70%;
+    width: 40%;
     border-radius: 15px;
     margin-left: 60px;
     margin-bottom: 40px;
+    padding-bottom: 20px;
 }
 }
 
 @media screen and (max-width: 350px){
   .square-img{
-    height: 200px;
-    width: 160px;
+    height: 170px;
+    width: 90px;
     background-color: rgb(231, 231, 231);
     border-radius: 15px;
     color: transparent;
-    margin-left: 10px;
+    margin-left: 30px;
     margin-top: -220px;
     margin-bottom: 20px;
   }
   .main-img{
-    width: 80%;
+    width: 50%;
     border-radius: 15px;
     margin-left: 40px;
     margin-bottom: 40px;
