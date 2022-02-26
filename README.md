@@ -1,4 +1,7 @@
 # SCI-6483
-SCI 6483 - Artifacts as Media (Spring 2022)
+#SCI 6483 Workout [00]- Artifacts as Media (Spring 2022)
 
-Repository for work done as part of SCI 6483 at Harvard GSD, Spring 2022, instructed by Jose Luis Garcia del Castillo Lopez.
+This is a project under development by Kritika Kharbanda, for the class SCI 6483 at Harvard GSD, instructed by Jose Garcia del Castillo Lopez.
+Languages used: HTML, CSS, Javascript
+Framework used: Bootstrap
+Frameworks/Libraries: p5.js
