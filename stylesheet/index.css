@@ -1,10 +1,27 @@
 *{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'pp_neue_machinaultrabold', sans-serif;
     text-decoration: none!important;
 }
 
+@font-face {
+  font-family: 'pp_neue_machinaultrabold';
+  src: url('fonts/ppneuemachina-ultrabold-webfont.woff2') format('woff2'),
+       url('fonts/ppneuemachina-ultrabold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family:'pp_neue_machinaregular';
+  src: url('fonts/ppneuemachina-regular-webfont.woff2') format('woff2'),
+       url('fonts/ppneuemachina-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body, html {
-    background-color: #ffffff;
+    background-color: #000000;
 
     /* removes horizontal scrollbar */
     overflow-x: hidden;
@@ -21,10 +38,12 @@ body, html {
     font-style: italic;
     font-weight: 50px;
     margin-top: 25px;
+    color: white;
   }
   
   .nav-item{
     font-size: 15px;
+    color: white;
   }
   
   .navbar-collapse{
@@ -45,7 +64,7 @@ body, html {
       margin: 0px;
       font-size: 20px;
       font-weight: 50px;
-      color: rgb(150, 150, 150);
+      color: rgb(173, 173, 173);
   }
 
   .large-text{
@@ -54,7 +73,7 @@ body, html {
       margin-bottom: 20 px;
       font-size: 40px;
       font-weight: 300px;
-      color: #fb6985;
+      color: #fff6f8;
   }
   .hover_style {
     opacity: 0.5;
@@ -65,19 +84,19 @@ body, html {
     margin: 0px;
     font-size: 18px;
     font-weight: 50px;
-    color: rgb(102, 102, 102);
+    color: rgb(201, 201, 201);
     text-decoration: underline!important;
   }
 
   .click_link:hover{
-    color: rgb(0, 0, 0);
+    color: rgb(119, 119, 119);
     text-decoration: underline!important;
   }
   
   .title_01{
       font-size: 20px;
       font-weight:200px;
-      color:rgb(0, 0, 0);
+      color:rgb(206, 206, 206);
       text-decoration: none;
       margin: auto;
   }
@@ -85,7 +104,7 @@ body, html {
   .title_02{
     font-size: 14px;
     font-weight:normal;
-    color: rgb(36, 36, 36);
+    color: rgb(151, 151, 151);
     text-decoration: none;
   }
 
