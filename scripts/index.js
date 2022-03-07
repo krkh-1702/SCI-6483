@@ -13,7 +13,7 @@ $(window).scroll(function () {
     }
 });
 
-// Hover effecta
+// Hover effects
 $('.hover_image').hover(function () {
     $(this).addClass('hover_style');
 },
@@ -40,4 +40,73 @@ $(document).ready(function () {
         }
     });
 });
+
+//Adding the p5.js scketch for text loading 
+let main = ["k", "r", "i", "t", "i", "k", "a"];
+var possible = [
+  "a",
+  "b",
+  "c",
+  "d",
+  "e",
+  "f",
+  "g",
+  "h",
+  "i",
+  "j",
+  "k",
+  "l",
+  "m",
+  "n",
+  "o",
+  "p",
+  "q",
+  "r",
+  "s",
+  "t",
+  "u",
+  "v",
+  "w",
+  "x",
+  "y",
+  "z",
+];
+
+let loadedFont;
+let index = 0;
+var canvas;
+
+//function preload() {
+//  loadedFont = loadFont("PPNeueMachina-Ultrabold.otf");
+//}
+
+function setup() {
+  canvas = createCanvas(800, 400);
+  canvas.position(0,0);
+  canvas.style('z-index', '-1');
+
+
+  textAlign(CENTER, CENTER);
+  textFont(loadedFont);
+  textSize(50);
+  frameRate(5);
+}
+
+function draw() {
+  background(175);
+  fill(255, 255, 255);
+
+  // Selecting a random character
+  for (let index = 75; index <= width - 125; index += 100) {
+    for (i = 0; i < main.length; i++) {
+      if (frameCount < 25) {
+        let randomChar = possible[Math.floor(Math.random() * possible.length)];
+        text(randomChar[i], index, height / 2);
+      }
+      if (frameCount >= 25) {
+        text(main[i], 75 + i * 100, height / 2);
+      }
+    }
+  }
+}
 
