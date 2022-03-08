@@ -82,8 +82,10 @@ var canvas;
 
 function setup() {
   canvas = createCanvas(800, 400);
-  canvas.position(0,0);
-  canvas.style('z-index', '-1');
+  canvas.parent("test");
+  canvas.style("display":"block");
+  //canvas.position(0,0);
+  //canvas.style('z-index', '-1');
 
 
   textAlign(CENTER, CENTER);
