@@ -76,16 +76,16 @@ let loadedFont;
 let index = 0;
 var canvas;
 
-//function preload() {
-//  loadedFont = loadFont("PPNeueMachina-Ultrabold.otf");
-//}
+function preload() {
+ loadedFont = loadFont("../fonts/ppneuemachina-regular-webfont.woff2");
+}
 
 function setup() {
   canvas = createCanvas(800, 400);
   canvas.parent("test");
-  canvas.style("display":"block");
-  //canvas.position(0,0);
-  //canvas.style('z-index', '-1');
+  canvas.style("display","block");
+  canvas.position(0,0);
+  canvas.style('z-index', '1');
 
 
   textAlign(CENTER, CENTER);

@@ -1,22 +1,22 @@
-* {
-  font-family: "pp_neue_machinaultrabold", sans-serif;
-  text-decoration: none !important;
-}
-
 @font-face {
   font-family: "pp_neue_machinaultrabold";
-  src: url("fonts/ppneuemachina-ultrabold-webfont.woff2") format("woff2"),
-    url("fonts/ppneuemachina-ultrabold-webfont.woff") format("woff");
+  src: url("../fonts/ppneuemachina-ultrabold-webfont.woff2") format("woff2"),
+    url("../fonts/ppneuemachina-ultrabold-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "pp_neue_machinaregular";
-  src: url("fonts/ppneuemachina-regular-webfont.woff2") format("woff2"),
-    url("fonts/ppneuemachina-regular-webfont.woff") format("woff");
+  src: url("../fonts/ppneuemachina-regular-webfont.woff2") format("woff2"),
+    url("../fonts/ppneuemachina-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+}
+
+* {
+  font-family: "pp_neue_machinaultrabold", sans-serif !important;
+  text-decoration: none !important;
 }
 
 body,
