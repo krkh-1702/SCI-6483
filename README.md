@@ -9,8 +9,8 @@ Frameworks/Libraries: p5.js
 
 Issues:
 
-1. Font loading in index.js function
-2. Setting up the index.js function, as developed here on p5.js as the main screen and shift down everything else to when the visitors starts scrolling down:
+1. Font loading in index.js function - for js file please include .otf instead of woff2 file
+2. Setting up the index.js function, as developed here on p5.js as the main screen and shift down everything else to when the visitors starts scrolling down: - done
    https://editor.p5js.org/krkh-1702/full/HlcXt5oEV
 3. Additional help on beautification of the website? Should we add gradients? I can work on a script that adds another effect that can be the backdrop and the text changing effect could be the foreground? Something like:
    https://www.queness.com/post/2865/12-insanely-awesome-javascript-effects
